@@ -1,4 +1,9 @@
 .name {
-    color: coral;
-    text-shadow: darkslategrey;
+  color: coral;
+  text-shadow: darkslategrey;
+}
+
+.name-2 {
+  color: palevioletred;
+  text-shadow: darkslategrey;
 }
