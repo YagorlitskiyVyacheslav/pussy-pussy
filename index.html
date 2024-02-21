@@ -4,10 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Pussy-pussy</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <title>Document</title>
   </head>
-  <body>
-    <h1>My name is <span class="name">Oleksandra Shevchuk</span></h1>
-    <h1>My name is <span class="name">Slava</span></h1>
+  <body class="light">
+    <h3>Hello</h3>
+    <button class="light_button">Light</button>
+    <button class="dark_button">Dark</button>
+    <p class="krakozabra">krakozabra</p>
   </body>
+  <script>
+    const lightButton = document.querySelector(".light_button");
+    const darkButton = document.querySelector(".dark_button");
+
+    lightButton.addEventListener("click", () =>
+      document.body.classList.replace("dark", "light")
+    );
+    darkButton.addEventListener("click", () =>
+      document.body.classList.replace("light", "dark")
+    );
+  </script>
 </html>
